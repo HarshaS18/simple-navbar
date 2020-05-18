@@ -196,3 +196,15 @@ button:focus {
     opacity: 1;
   }
 }
+
+@media (max-width: 500px) {
+  header {
+    padding-bottom: 25px;
+  }
+  header h1 {
+    margin-top: 15px;
+  }
+  header p {
+    margin: 20px 0;
+  }
+}

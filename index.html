@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Menu Slider</title>
+  </head>
+  <body>
+    <!-- Left Navbar -->
+    <nav>
+      <div class="logo">
+        <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user" />
+      </div>
+      <div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Top Header -->
+    <header>
+      <button id="toggle" class="toggle">
+        <i class="fa fa-bars"></i>
+      </button>
+      <h1>Header of this page</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, harum!
+      </p>
+      <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <!-- Main content -->
+    <main class="container">
+      <h2>Welcome to main content</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo porro
+        consequatur sapiente perferendis perspiciatis? Alias corporis magnam
+        quos reiciendis deserunt.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ratione
+        accusamus veritatis, aperiam dolor dignissimos dicta est doloribus
+        corrupti reiciendis quae repellat sapiente expedita porro quis dolore ex
+        sequi magni!
+      </p>
+      <h2>Just filling space</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae
+        necessitatibus vitae vel ipsum maxime eius enim quasi, recusandae sed
+        tenetur repellat, dolores fugit. Inventore aspernatur officia unde
+        magnam deleniti? Aliquam.
+      </p>
+      <h2>Some List</h2>
+      <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+      </ul>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui modi error
+        beatae aspernatur quae eius ipsam natus saepe, corporis, assumenda
+        suscipit fugit ad voluptates, dolores expedita? Necessitatibus
+        cupiditate quaerat reprehenderit sunt unde maxime ut consequatur
+        commodi, placeat animi, laudantium vitae?
+      </p>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="modal-content">
+          <p>Register with us to get offers, suppoert and more</p>
+          <form class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Enter Name" />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter Email" />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+              />
+            </div>
+            <div>
+              <label for="password2">Confirm Password</label>
+              <input
+                type="password"
+                id="password2"
+                placeholder="Enter Confirm Password"
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script link -->
+    <script src="script.js"></script>
+  </body>
+</html>
